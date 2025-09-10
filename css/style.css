@@ -1,0 +1,72 @@
+/* Background */
+body {
+    background-color: #f9f3e6;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* More spaced out, so I can read better */
+}
+
+/* Headers */
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5a2a83; 
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.75rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 0;
+    display: flex;
+    gap: 3rem;
+    background-color: #fedfae;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover {
+    color: #5a2a83;
+}
+
+/* Sections */
+section {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Images */
+img {
+    width: 300px;
+    height: auto;
+    border: 3px solid #5a2a83;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ddd;
+}
